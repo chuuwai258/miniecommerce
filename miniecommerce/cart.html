@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Gilda+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
 
@@ -33,18 +32,20 @@
         </div>
     </Nav>
 
-    
     <main>
-        <div class="photo">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/559465cb-2c06-4177-a5ce-dee4c6409ce6/dfngy5m-1d4e184c-d741-4e89-abc1-8bfc9ce35a0a.png/v1/fill/w_1024,h_512,q_80,strp/inside_of_a_shopping_mall_vn_background_by_drechenaux_dfngy5m-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNTU5NDY1Y2ItMmMwNi00MTc3LWE1Y2UtZGVlNGM2NDA5Y2U2XC9kZm5neTVtLTFkNGUxODRjLWQ3NDEtNGU4OS1hYmMxLThiZmM5Y2UzNWEwYS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.DSYVAfGumWLl8S_zonOsBytAgkN1HPBSUcoNXc3kXA0" alt="photo" class="photo-img">   
-        </div> 
-        
-        <div class="product">
-            <h1 style="font-size: 60px;">Products</h1>
-            <div class="product-card"></div>
+        <div class="cart-container">
+            <center><h1 style="padding-top: 20px; font-size: 60px;">Cart</h1></center>
+       
+        <div class="cart-btn">
+            <button class="get-btn">GET</button>
+            <button class="post-btn">POST</button>
+            <button class="put-btn">PUT</button>
+            <button class="delete-btn">DELETE</button>
         </div>
-    </main>
 
+        <div class="result"></div>
+         </div>
+    </main>
 
     <!-- footer -->
     <footer>
@@ -68,7 +69,8 @@
             </div>
         </div>
     </footer>
-
-    <script src="./index.js"></script>
+    
+   <script src="./index.js"></script> 
 </body>
 </html>
+

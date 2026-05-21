@@ -23,6 +23,7 @@ function regBtn() {
     }
      
 }
+//login Page
 function homePage(event) {
 
     event.preventDefault();
@@ -48,9 +49,7 @@ function homePage(event) {
     }
 
 }
-
-
-
+//Logout Page
 function logoutPage() {
 
     localStorage.removeItem("isLoggedIn");

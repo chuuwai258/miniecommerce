@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: "Old Standard TT", serif;
+
+}
+main{
+    background-image: url("https://wallpaperbat.com/img/25729-wallpaper-of-the-week-sunsets.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:80px 60px;
+    gap:90px;     
+}
+.namebox{
+    display: flex;
+    width:100%;
+}
+.firstName{
+  margin-right: 40px;  
+}
+.lastName{
+     margin-right: 0;
+}
+.input-container{
+    background: rgba(255, 255, 255, 0.025);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.034);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    color:black;
+    width:100%;
+    height:500px;
+    border-radius: 20px;
+    padding:20px 30px; 
+    margin-top: 43px;
+}
+.input-container input{
+    border-left: none;
+    border-right: none;
+    outline: 0;
+    width: 100%;
+    border-top: none;
+    margin-bottom: 45px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    color:black;
+}
+.signupBtn{
+    width:40%;
+    height: 40px;
+    background:linear-gradient(to right, rgb(249, 104, 246) , rgb(78, 184, 242));
+    color:black;
+    border:0;
+    border-radius: 5px;
+    margin:0 20px 20px 10px;
+    cursor: pointer;   
+}
+.loginBtn{
+    width:40%;
+    height: 40px;
+    background:linear-gradient(to right, rgb(249, 104, 246) , rgb(78, 184, 242));
+    color: black;
+    border:0;
+    border-radius: 5px;
+    margin:0 20px 0 10px;
+    cursor: pointer;
+}
+
+
+
+        
+
+

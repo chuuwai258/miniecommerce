@@ -1,18 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Sign Up Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Gilda+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background:linear-gradient(to right, rgb(249, 104, 246) , rgb(78, 184, 242));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.logout-container{
+    background-color:rgba(255, 255, 255, 0.3);
+    width:400px;
+    height:330px;
+   
+    border-radius: 20px;
+    padding:50px 30px;
+}
+.btn{
+    width:40%;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.582);
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color: lightgray;
+}
 
+    </style>
 </head>
 <body>
     <Nav>
-        <div class="container">
+        <div class="nav-container">
 
         <div class="header-container">
             <div class="header">
@@ -28,11 +66,12 @@
         </div>
         </div>
     </Nav>
+
     <main>
-    <div class="product">
-            <h1>Products</h1>
-            <div class="product-card"></div>
-        </div>
+    <div class="logout-container">
+        <h2 style="text-align: center; padding-top: 30px;">Session ended successfully.</h2><br>
+        <p style="text-align: center;">See you in the next login.</p>
+        <center><button class="btn" onclick="logoutPage()">logout</button></center>
     </main>
 
     <footer>
@@ -56,6 +95,6 @@
             </div>
         </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="./register.js"></script>
 </body>
 </html>
